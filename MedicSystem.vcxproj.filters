@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChangeUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanMedicDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DelUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogInDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Medic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicIDSeekDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicNameSeekDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicSystemDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicSystemView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicTypeSeekDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyPasswdDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTreeView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportSeek.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SaleDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SaleSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreMedic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkStatusGuard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChangeUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanMedicDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DelUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Globol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogInDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Medic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicIDSeekDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicNameSeekDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicSystemDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicSystemView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicTypeSeekDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyPasswdDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTreeView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportField.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportSeek.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SaleDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SaleSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreMedic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkStatusGuard.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ico\002.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ico\007.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\clean.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DefaultRibbonIcon.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Exit.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Find.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Find2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Fonts.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\logo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\logo.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\logo2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\medicine.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MedicSystem.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MedicSystem.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MedicSystemDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RibbonMinimize.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\user_ribbon.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\userlist.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Windows.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ico\zy.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\修改密码.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\更换用户.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Waiting.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Waiting.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MedicSystem.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TeaSystem", "MedicSystem.vcxproj", "{144A5226-B547-4E70-9F21-0717971D9F79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToolSet", "..\ToolSet\ToolSet.vcxproj", "{315A5B9D-D0D0-4383-A4C3-EE56B9BBB0E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{144A5226-B547-4E70-9F21-0717971D9F79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{144A5226-B547-4E70-9F21-0717971D9F79}.Debug|Win32.Build.0 = Debug|Win32
+		{144A5226-B547-4E70-9F21-0717971D9F79}.Release|Win32.ActiveCfg = Release|Win32
+		{144A5226-B547-4E70-9F21-0717971D9F79}.Release|Win32.Build.0 = Release|Win32
+		{315A5B9D-D0D0-4383-A4C3-EE56B9BBB0E7}.Debug|Win32.ActiveCfg = DebugU|Win32
+		{315A5B9D-D0D0-4383-A4C3-EE56B9BBB0E7}.Debug|Win32.Build.0 = DebugU|Win32
+		{315A5B9D-D0D0-4383-A4C3-EE56B9BBB0E7}.Release|Win32.ActiveCfg = DebugU|Win32
+		{315A5B9D-D0D0-4383-A4C3-EE56B9BBB0E7}.Release|Win32.Build.0 = DebugU|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

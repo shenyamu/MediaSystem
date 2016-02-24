@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>DebugU</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{144A5226-B547-4E70-9F21-0717971D9F79}</ProjectGuid>
+    <RootNamespace>MedicSystem</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>TeaSystem</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugU|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DebugU|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugU|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Xtreme ToolkitPro\Source;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ExecutablePath)</ExecutablePath>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ChangeUserDlg.cpp" />
+    <ClCompile Include="CleanMedicDlg.cpp" />
+    <ClCompile Include="DelUser.cpp" />
+    <ClCompile Include="WorkStatusGuard.cpp" />
+    <ClCompile Include="LogInDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Medic.cpp" />
+    <ClCompile Include="MedicIDSeekDlg.cpp" />
+    <ClCompile Include="MedicManage.cpp" />
+    <ClCompile Include="MedicNameSeekDlg.cpp" />
+    <ClCompile Include="MedicSet.cpp" />
+    <ClCompile Include="MedicSystem.cpp" />
+    <ClCompile Include="MedicSystemDoc.cpp" />
+    <ClCompile Include="MedicSystemView.cpp" />
+    <ClCompile Include="MedicTypeSeekDlg.cpp" />
+    <ClCompile Include="ModifyPasswdDlg.cpp" />
+    <ClCompile Include="MyTreeView.cpp" />
+    <ClCompile Include="RegisterUser.cpp" />
+    <ClCompile Include="ReportField.cpp" />
+    <ClCompile Include="ReportSeek.cpp" />
+    <ClCompile Include="Sale.cpp" />
+    <ClCompile Include="SaleDlg.cpp" />
+    <ClCompile Include="SaleSet.cpp" />
+    <ClCompile Include="SeekUser.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StoreMedic.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserSet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChangeUserDlg.h" />
+    <ClInclude Include="CleanMedicDlg.h" />
+    <ClInclude Include="DelUser.h" />
+    <ClInclude Include="WorkStatusGuard.h" />
+    <ClInclude Include="Globol.h" />
+    <ClInclude Include="LogInDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Medic.h" />
+    <ClInclude Include="MedicIDSeekDlg.h" />
+    <ClInclude Include="MedicManage.h" />
+    <ClInclude Include="MedicNameSeekDlg.h" />
+    <ClInclude Include="MedicSet.h" />
+    <ClInclude Include="MedicSystem.h" />
+    <ClInclude Include="MedicSystemDoc.h" />
+    <ClInclude Include="MedicSystemView.h" />
+    <ClInclude Include="MedicTypeSeekDlg.h" />
+    <ClInclude Include="ModifyPasswdDlg.h" />
+    <ClInclude Include="MyTreeView.h" />
+    <ClInclude Include="RegisterUser.h" />
+    <ClInclude Include="ReportField.h" />
+    <ClInclude Include="ReportSeek.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sale.h" />
+    <ClInclude Include="SaleDlg.h" />
+    <ClInclude Include="SaleSet.h" />
+    <ClInclude Include="SeekUser.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StoreMedic.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserSet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap4.bmp" />
+    <None Include="res\ico\002.ico" />
+    <None Include="res\ico\007.ico" />
+    <None Include="res\clean.png" />
+    <None Include="res\DefaultRibbonIcon.png" />
+    <None Include="res\Exit.png" />
+    <None Include="res\Find.png" />
+    <None Include="res\Find2.png" />
+    <None Include="res\Fonts.png" />
+    <None Include="res\login.ico" />
+    <None Include="res\logo.bmp" />
+    <None Include="res\logo.png" />
+    <None Include="res\logo2.bmp" />
+    <None Include="res\medicine.png" />
+    <None Include="res\MedicSystem.ico" />
+    <None Include="res\MedicSystem.rc2" />
+    <None Include="res\MedicSystemDoc.ico" />
+    <None Include="res\png1.png" />
+    <None Include="res\RibbonMinimize.png" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\user_ribbon.bmp" />
+    <None Include="res\userlist.bmp" />
+    <None Include="res\Waiting.bmp" />
+    <None Include="res\Waiting.png" />
+    <None Include="res\Windows.png" />
+    <None Include="res\ico\zy.png" />
+    <None Include="res\修改密码.png" />
+    <None Include="res\更换用户.png" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MedicSystem.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MedicSystem.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
